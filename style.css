@@ -1,0 +1,77 @@
+html, body{
+    padding: 10;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #a39193;
+}
+
+.wrap{
+    background-color: #f6e0b5;
+    width: 900px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10, auto;
+    border-radius: 100px;box-shadow: 0 0 10px;
+}
+.con h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    /* background-color: brown; */
+    display: inline-block;
+}
+
+.con .gambar{
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.con .gambar img{
+    border-radius: 20px;
+}
+
+.kanan{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 20px;
+    padding: 40px;
+}
+
+.con2{
+    text-align: justify;
+    padding: 0 30px;
+}
+
+
+.con3 img{
+    margin: 10 50px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.con3{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tombol{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tombol button{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #eea990;
+}
